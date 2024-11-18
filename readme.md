@@ -39,7 +39,7 @@ Test Suite:
 ![image](https://github.com/user-attachments/assets/34731c62-7a5d-4ec4-a26e-af18c6e7bcca)
 
 ## Improvements
-Since this code is meant to mock a distributed download monitoring system there are some improvments that could be made in a production setting:
+Since this code is meant to mock a distributed download monitoring system there are some improvements that could be made in a production setting:
 
 - Credential handling (config files, environmental variables, internal auth system)
 - Extend test suite based on biz logic and potential edge cases
