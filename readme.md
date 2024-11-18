@@ -2,17 +2,6 @@
 
 A distributed system for monitoring download events using RabbitMQ message queues.
 
-## Project Structure
-RABBITMQ_TEST/
-├── tests/
-│   ├── test_consumer.py
-│   └── test_producer.py
-├── consumer.py
-├── docker-compose.yml
-├── Dockerfile
-├── producer.py
-└── requirements.txt
-
 ## Features
 - Producer generates simulated download events with coordinates, file size, and speed
 - Consumer validates events against JSON schema
