@@ -44,7 +44,7 @@ Since this code is meant to mock a distributed download monitoring system there 
 - Credential handling (config files, environmental variables, internal auth system)
 - Extend test suite based on biz logic and potential edge cases
 - Centrally deploy rabbitmq rather than hosting alongside service
-- Implement backend logic for succesful message events (hit api/db to notify to start import process etc)
+- Implement backend logic for successful message events (hit api/db to notify to start import process etc)
 - Implement production logging stack (hit elastic api / central logs resource)
 - Improve error handling 
 
