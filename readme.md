@@ -38,6 +38,15 @@ We can see that our queue is actively getting messages published and we have one
 Test Suite:
 ![image](https://github.com/user-attachments/assets/34731c62-7a5d-4ec4-a26e-af18c6e7bcca)
 
+## Improvements
+Since this code is meant to mock a distributed download monitoring system there are some improvments that could be made in a production setting:
+
+- Credential handling (config files, environmental variables, internal auth system)
+- Extend test suite based on biz logic and potential edge cases
+- Centrally deploy rabbitmq rather than hosting alongside service
+- Implement backend logic for succesful message events (hit api/db to notify to start import process etc)
+- Implement production logging stack (hit elastic api / central logs resource)
+- Improve error handling 
 
 
 
